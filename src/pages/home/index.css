@@ -1,0 +1,175 @@
+body {
+    background-color: #f6f6f6;
+}
+
+/* * {
+    border: 2px greenyellow solid;
+} */
+
+
+/* >>> section1 <<< */
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0px 130px 0px;
+    background-color: #404eed;
+    background-image: url(../../assets/images/nuvem.svg);
+    background-size: cover;
+    color: #f6f6f6;
+    background-position: -430px 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.s1-bixoamarelo {
+    position: absolute;
+    bottom: 0px;
+    left: -100px;
+}   
+
+.s1-bixorosa {
+    position: absolute;
+    bottom: 0px;
+    right: -50px;
+}
+
+
+
+.s1-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    margin-bottom: 140px;
+}
+
+.s1-navbar > a {
+    font: 14px 'Discord3';
+    background-color: #fff;
+    color: #23272a;
+    padding: 10px 14px;
+    border-radius: 30px;
+    margin: 0px 10px;
+}
+
+.section1 > h1 {
+    font: 56px 'Discord1';
+    width: 500px;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+
+.section1 > p {
+    font: 20px 'Discord2';
+    width: 780px;
+    text-align: center;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+
+.s1-menu {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.s1-menu a {
+    font: 16px 'Discord4';
+    margin: 5px 20px;
+}
+
+.s1-menu a:hover {
+    text-decoration: underline;
+}
+
+.s1-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.s1-buttons a {
+    background-color: #fff;
+    color: #23272a;
+    font: 20px 'Discord3';
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin: 0px 10px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.s1-buttons a:hover {
+    box-shadow: 0px 8px 15px rgb(0 0 0 / 20%);
+    color: #5865f2;
+}
+
+.section1 a {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.s1.s1-navbar > a:hover {
+    box-shadow: 0px 8px 15px rgb(0 0 0 / 20%);
+    color: #5865f2;
+}
+
+.s1-button-dark {
+    background-color: #23272a !important;
+    color: #fff !important;
+}
+
+.s1-button-dark:hover {
+    box-shadow: 0px 8px 15px rgb(60,60,60) !important;
+}
+
+.s1-buttons > a > svg {
+    margin-right: 10px;
+}
+
+
+/* >>> section2 <<< */
+
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 110px 0px;
+    align-items: center;
+    background-color: #f6f6f6;
+}
+
+.section2 img {
+
+}
+
+.s2-texts {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+}
+
+.s2-texts h1{
+    font: 50px discord5;
+    color: #000;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.s2-texts p {
+    font: 20px discord2;
+    color: #000;
+    line-height: 35px;
+}
+
+/* >>> aplicação de margem em todos os filhos dessa div <<< */
+
+.section2 > * {
+    margin: 0px 50px;
+}
