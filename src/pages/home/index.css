@@ -142,7 +142,8 @@ body {
     justify-content: center;
     padding: 110px 0px;
     align-items: center;
-    background-color: #f6f6f6;
+    background-color: #fff;
+    margin-bottom: 30px;
 }
 
 .section2 img {
@@ -156,14 +157,14 @@ body {
 }
 
 .s2-texts h1{
-    font: 50px discord5;
+    font: 50px 'discord5';
     color: #000;
     line-height: 60px;
     margin-bottom: 20px;
 }
 
 .s2-texts p {
-    font: 20px discord2;
+    font: 20px 'discord2';
     color: #000;
     line-height: 35px;
 }
@@ -172,4 +173,154 @@ body {
 
 .section2 > * {
     margin: 0px 50px;
+}
+
+
+
+/* >>> section3 <<< */
+
+
+.section3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 110px 0px;
+    align-items: center;
+    background-color: #f6f6f6;
+}
+
+.section3 img {
+
+}
+
+.s3-texts {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+}
+
+.s3-texts h1{
+    font: 50px 'discord5';
+    color: #000;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.s3-texts p {
+    font: 20px 'discord2';
+    color: #000;
+    line-height: 35px;
+}
+
+/* >>> section4 <<< */
+
+.section4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 110px 0px;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+.section4 img {
+
+}
+
+.s4-texts {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+}
+
+.s4-texts h1{
+    font: 50px 'discord5';
+    color: #000;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.s4-texts p {
+    font: 20px 'discord2';
+    color: #000;
+    line-height: 35px;
+}
+
+/* >>> aplicação de margem em todos os filhos dessa div <<< */
+
+.section4 > * {
+    margin: 0px 50px;
+}
+
+
+/* >>> section5 <<< */
+
+.section5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 110px 0px;
+    align-items: center;
+    background-color: #f6f6f6;
+    margin-bottom: 30px;
+}
+
+.s5-texts {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    align-items: center;
+}
+
+.s5-texts h2{
+    font: 40px 'discord1';
+    color: #000;
+    width: 900px;
+    text-align: center;
+    line-height: 95%;
+    margin-bottom: 50px;
+}
+
+.s5-texts p {
+    font: 18px 'Discord2';
+    margin-top: 24px;
+    width: 960px;
+    text-align: center;
+    line-height: 1.625;
+    margin-bottom: 30px;
+}
+
+/* >>> section6 <<< */
+
+.section6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 110px 0px;
+    align-items: center;
+    background-color: #f6f6f6;
+    margin-bottom: 30px;
+}
+
+.s6-texts {
+    font: 32px 'discord3';
+    line-height: 120%;
+    margin-bottom: 50px;
+}
+
+.section6 > a {
+    background-color: #5865f2;
+    color: #fff;
+    padding: 10px 14px;
+    border-radius: 30px;
+    margin: 0px 10px;
+    font: 20px 'Discord3';
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.s1-buttons > a > svg {
+    margin-right: 10px;
 }
